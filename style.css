@@ -1,0 +1,15 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.picture-container {
+    margin: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.name {
+    user-select: none; /* Prevent text selection on the name */
+}
