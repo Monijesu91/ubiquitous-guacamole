@@ -11,5 +11,11 @@ body {
 }
 
 .name {
-    user-select: none; /* Prevent text selection on the name */
+    background-color: #ffffff;
+    user-select: none;
+}
+@media screen and (min-width: 80rem) {
+    .picture-container{
+        margin: 1em 2em;
+    }
 }
